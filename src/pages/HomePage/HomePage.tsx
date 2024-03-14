@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-export const HomePage: FC = () => {
+const HomePage: FC = () => {
 	return (
 		<div className="page-wrapper">
 			<h1>Home</h1>
