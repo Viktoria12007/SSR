@@ -15,7 +15,7 @@ const items = [
 	{ key: 3, label: <Link to={"/todos"}>Todos</Link> },
 ];
 
-const CusomLayout: FC<Props> = () => {
+const CustomLayout: FC<Props> = () => {
 	return (
 		<Layout className="layout">
 			<Header className="header">
@@ -35,4 +35,4 @@ const CusomLayout: FC<Props> = () => {
 	);
 };
 
-export default CusomLayout;
+export default CustomLayout;
